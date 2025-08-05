@@ -20,6 +20,6 @@ spec:
         project: roboshop
         app: nginx
     spec:
-      containedeployment-demo:
+      containers:
       - name: nginx
         image: nginx:stable-per1
